@@ -1,0 +1,96 @@
+body{
+		margin: 0;
+			}
+	
+	ul.topnav{
+		list-style-type: none;
+  		
+  		margin:0px;
+  		padding: 0px; 
+ 	    overflow: hidden;
+  		border: 1px solid #e7e7e7;
+  		background-color: #f3f3f3;
+  		position: fixed; 
+		top: 0;
+		width: 100%;
+	}
+	ul.topnav li{
+		float: left;
+	}
+	li a{
+		color: black;
+		display: block;
+		text-align: center;
+		padding: 15px 25px;
+		text-decoration: none;
+	}
+	ul.topnav li a:hover{
+		background-color: #ddd;
+	}
+	@media screen and (max-width: 600px) {
+  		ul.topnav li.right, 
+  		ul.topnav li {float: none;}
+	}
+
+	.header{
+		
+		text-decoration: underline;
+		color: gray;
+		text-align: center;
+		margin-top: 60px;
+		margin-bottom: 0px;
+	
+	}
+
+	.container{
+		max-width: 100%
+		margin:0;
+		
+		font-size: 1.6vw;
+		
+	}
+	.parallax1{
+			
+		margin-top: 0px;
+		padding: 0px;
+		background: url('images/2.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		height: 750px;
+	}
+	.welcome{
+		text-align: center;
+		color: white;
+		padding-top: 300px;
+		width: 100%;
+	}
+
+	.parallax2{
+		background: url('images/3.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		height: 750px;
+	}
+	.Follow{
+
+		margin-left: 5%;
+		color: #454242;
+		text-align: center;
+	}
+
+
+
+.fa {
+  padding: 10px;
+  text-align: center;
+  width: 50px;
+  margin-left: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

@@ -1,0 +1,63 @@
+body{
+		margin: 0;
+		background-color: #f3f3f3;
+	<--!	
+		background: url('images/back_about.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	-->
+	}
+	
+	ul.topnav{
+		list-style-type: none;
+  		
+  		margin:0px;
+  		padding: 0px; 
+ 	    overflow: hidden;
+  		border: 1px solid #e7e7e7;
+  		background-color: #f3f3f3;
+  		position: fixed; 
+		top: 0;
+		width: 100%;
+	}
+	ul.topnav li{
+		float: left;
+	}
+	li a{
+		color: black;
+		display: block;
+		text-align: center;
+		padding: 15px 25px;
+		text-decoration: none;
+	}
+	ul.topnav li a:hover{
+		background-color: #ddd;
+	}
+	@media screen and (max-width: 600px) {
+  		ul.topnav li.right, 
+  		ul.topnav li {float: none;}
+	}
+	
+	.header{
+		text-decoration: underline;
+		color: gray;
+		text-align: center;
+		margin-top: 60px;
+	}
+	.nameimage{
+		float: right; 
+		height: 300px; 
+		width: 400px; 
+		padding-right: 300px;
+		padding-top:120px;
+	}
+	.introimage{
+		float: left; 
+		height: 300px; 
+		width: 400px; 
+		padding-left: 300px;
+		padding-top: 100px;
+		
+	}
+	

@@ -1,0 +1,72 @@
+body{
+		margin: 0;
+	
+	}
+	
+	ul.topnav{
+		list-style-type: none;
+  		
+  		margin:0px;
+  		padding: 0px; 
+ 	    overflow: hidden;
+  		border: 1px solid #e7e7e7;
+  		background-color: #f3f3f3;
+  		position: fixed; 
+		top: 0;
+		width: 100%;
+	}
+	ul.topnav li{
+		float: left;
+	}
+	li a{
+		color: black;
+		display: block;
+		text-align: center;
+		padding: 15px 25px;
+		text-decoration: none;
+	}
+	ul.topnav li a:hover{
+		background-color: #ddd;
+	}
+	@media screen and (max-width: 600px) {
+  		ul.topnav li.right, 
+  		ul.topnav li {float: none;}
+	}
+
+	.header{
+		
+		text-decoration: underline;
+		color: gray;
+		text-align: center;
+		margin-top: 60px;
+		margin-bottom: 0px;
+	}
+
+	.parisblog{
+		margin-left: 20px;
+		margin-top: 20px;  
+		width: 300px;
+  		background-color: white;
+  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border-radius: 5px;
+	}
+	.parisblog:hover{
+		border: 1px solid gray;
+	}
+	.container {
+  	text-align: center;
+  	padding: 5px 20px;
+}	
+
+@media only screen and (max-width: 700px) {
+  .parisblog {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .parisblog {
+    width: 100%;
+  }
+}
