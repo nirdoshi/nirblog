@@ -45,8 +45,8 @@ body{
 	.nameimage{
 		float: right; 
 		height: 200px; 
-		width: 240px; 
-		padding-right: 10px;
+		width: 230px; 
+		padding-right: 0px;
 		padding-top:35px;
 	}
 	.introimage{
