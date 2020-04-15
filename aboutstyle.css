@@ -46,13 +46,13 @@ body{
 		float: right; 
 		height: 200px; 
 		width: 240px; 
-		padding-right: 20px;
+		padding-right: 10px;
 		padding-top:35px;
 	}
 	.introimage{
 		float: left; 
 		height: 200px; 
-		width: 200px; 
+		width: 180px; 
 		padding-left: 30px;
 		padding-top: 90px;
 		
@@ -75,14 +75,14 @@ body{
 	}
 
 	.content2 h1{
-		padding-left: 250px; 
+		padding-left: 235px; 
 		color:#454242; 
 		font-size: 3vw; 
 		
 	}
 	.content2 p{
 		 color: #454242;
-		 padding-left: 250px; 
+		 padding-left: 235px; 
 		 font-size:2.7vw;
 	}
 	.lets{
