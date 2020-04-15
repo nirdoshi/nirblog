@@ -1,3 +1,8 @@
+
+*{
+	box-sizing: border-box;
+}
+
 body{
 		margin: 0;
 			}
@@ -10,12 +15,12 @@ body{
  	    overflow: hidden;
   		border: 1px solid #e7e7e7;
   		background-color: #f3f3f3;
-  		position: fixed; 
+  		
 		top: 0;
 		width: 100%;
 	}
 	ul.topnav li{
-		float: left;
+		float: none;
 	}
 	li a{
 		color: black;
@@ -27,18 +32,15 @@ body{
 	ul.topnav li a:hover{
 		background-color: #ddd;
 	}
-	@media screen and (max-width: 600px) {
-  		ul.topnav li.right, 
-  		ul.topnav li {float: none;}
-	}
+	
 
 	.header{
 		
 		text-decoration: underline;
 		color: gray;
 		text-align: center;
-		margin-top: 60px;
-		margin-bottom: 0px;
+		margin-top: 5px;
+		margin-bottom: 5px;
 	
 	}
 
@@ -55,25 +57,33 @@ body{
 		padding: 0px;
 		background: url('images/2.jpg');
 		background-size: cover;
-		background-attachment: fixed;
-		height: 750px;
+		background-attachment: scroll;
+		height: 350px;
+		width: 100%;
 	}
 	.welcome{
 		text-align: center;
 		color: white;
-		padding-top: 300px;
+		padding-top: 200px;
 		width: 100%;
 	}
 
 	.parallax2{
 		background: url('images/3.jpg');
 		background-size: cover;
-		background-attachment: fixed;
-		height: 750px;
+		background-attachment: scroll;
+		height: 350px;
+		width: 100%;
+	}
+	.content{
+		color: #454242;
+		padding: 30px 20px; 
+		font-size: 1.8vw;
+		background-color: #f3f3f3;
 	}
 	.Follow{
 
-		margin-left: 5%;
+		
 		color: #454242;
 		text-align: center;
 	}
@@ -84,7 +94,7 @@ body{
   padding: 10px;
   text-align: center;
   width: 50px;
-  margin-left: 50%;
+  margin-left: 45%;
 }
 
 .fa:hover {
@@ -94,3 +104,9 @@ body{
   background: #125688;
   color: white;
 }
+
+@media screen and (min-width: 600px) {
+  		
+  		
+}
+
