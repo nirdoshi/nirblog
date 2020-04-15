@@ -62,9 +62,10 @@ body{
 		width: 100%;
 	}
 	.welcome{
+		font-size: 5vw;
 		text-align: center;
 		color: white;
-		padding-top: 200px;
+		padding-top: 180px;
 		width: 100%;
 	}
 
@@ -78,7 +79,7 @@ body{
 	.content{
 		color: #454242;
 		padding: 30px 20px; 
-		font-size: 1.8vw;
+		font-size: 3.3vw;
 		background-color: #f3f3f3;
 	}
 	.Follow{
@@ -105,8 +106,44 @@ body{
   color: white;
 }
 
-@media screen and (min-width: 600px) {
-  		
-  		
+@media screen and (min-width: 768px) {
+ 	
+	ul.topnav{
+		position: fixed;
+	}
+
+ 	ul.topnav li{
+		float: left;
+	} 		
+ 	
+ 	.header{
+ 		margin-top: 60px;
+ 		margin-bottom: -15px;
+ 	}
+	.parallax1{
+		background-attachment: fixed;
+		height: 750px;
+	}
+	.parallax2{
+		background-attachment: fixed;
+		height: 750px;
+	}
+
+	.welcome{
+		padding-top: 350px;
+		font-size: 3vw;
+	}
+
+	.content{
+		margin-left: 80px;
+		margin-right: 80px;
+		padding-right: 50px;
+		padding-left: 50px; 
+		font-size: 1.6vw;
+	}
+
+	.fa{
+		margin-left: 49%;
+	}
 }
 

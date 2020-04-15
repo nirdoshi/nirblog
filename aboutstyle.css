@@ -17,12 +17,12 @@ body{
  	    overflow: hidden;
   		border: 1px solid #e7e7e7;
   		background-color: #f3f3f3;
-  		position: fixed; 
+  		
 		top: 0;
 		width: 100%;
 	}
 	ul.topnav li{
-		float: left;
+		float: none;
 	}
 	li a{
 		color: black;
@@ -34,30 +34,32 @@ body{
 	ul.topnav li a:hover{
 		background-color: #ddd;
 	}
-	@media screen and (max-width: 600px) {
-  		ul.topnav li.right, 
-  		ul.topnav li {float: none;}
-	}
+	
 	
 	.header{
 		text-decoration: underline;
 		color: gray;
 		text-align: center;
-		margin-top: 60px;
+		margin-top: 10px;
 	}
 	.nameimage{
 		float: right; 
-		height: 300px; 
-		width: 400px; 
-		padding-right: 300px;
-		padding-top:120px;
+		height: 200px; 
+		width: 240px; 
+		padding-right: 20px;
+		padding-top:35px;
 	}
 	.introimage{
 		float: left; 
-		height: 300px; 
-		width: 400px; 
-		padding-left: 300px;
-		padding-top: 100px;
+		height: 200px; 
+		width: 200px; 
+		padding-left: 30px;
+		padding-top: 90px;
 		
 	}
 	
+	@media screen and (min-width: 768px) {
+
+
+
+	}
