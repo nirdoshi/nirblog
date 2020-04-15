@@ -57,9 +57,94 @@ body{
 		padding-top: 90px;
 		
 	}
-	
+	.content h2{
+		padding-top: 30px; 
+		padding-left: 20px; 
+		font-size: 3vw;
+		color: #454242;
+	}
+	.content h1{
+		padding-left: 20px; 
+		font-size: 3vw;
+		color: #454242;
+	}
+	.content h3{
+		padding-left: 20px; 
+		font-size: 3vw;
+		color: #454242;
+	}
+
+	.content2 h1{
+		padding-left: 250px; 
+		color:#454242; 
+		font-size: 3vw; 
+		
+	}
+	.content2 p{
+		 color: #454242;
+		 padding-left: 250px; 
+		 font-size:2.7vw;
+	}
+	.lets{
+		margin-top: 50px;
+	}
+
 	@media screen and (min-width: 768px) {
 
+		ul.topnav li{
+			float: left;
+		}
 
+		ul.topnav{
+			position: fixed;
+		}
 
+		.nameimage{
+		float: right; 
+		height: 300px; 
+		width: 400px; 
+		padding-right: 300px;
+		padding-top:120px;
+		
+		}
+		.introimage{
+		float: left; 
+		height: 300px; 
+		width: 400px; 
+		padding-left: 300px;
+		padding-top: 100px;
+		
+		}
+
+		.content h2{
+		padding-top: 50px; 
+		padding-left: 300px; 
+		font-size: 1.6vw;
+		color: #454242;
+		}
+
+		.content h1{
+		padding-left: 300px; 
+		font-size: 3.25vw;
+		color: #454242;
+		}
+		.content h3{
+		padding-left: 300px; 
+		font-size: 1.95vw;
+		color: #454242;
+		}
+
+		.content2 h1{
+			padding-left: 800px;
+			color: #454242;
+			font-size: 3.25vw;
+		}
+		.content2 p{
+			padding-left: 800px;
+			color: #454242;
+			font-size: 1.8vw;
+		}
+		.lets{
+			margin-top: 100px;
+		}
 	}
