@@ -11,12 +11,11 @@ body{
  	    overflow: hidden;
   		border: 1px solid #e7e7e7;
   		background-color: #f3f3f3;
-  		position: fixed; 
 		top: 0;
 		width: 100%;
 	}
 	ul.topnav li{
-		float: left;
+		float: none;
 	}
 	li a{
 		color: black;
@@ -28,22 +27,19 @@ body{
 	ul.topnav li a:hover{
 		background-color: #ddd;
 	}
-	@media screen and (max-width: 600px) {
-  		ul.topnav li.right, 
-  		ul.topnav li {float: none;}
-	}
+	
 
 	.header{
 		
 		text-decoration: underline;
 		color: gray;
 		text-align: center;
-		margin-top: 60px;
+		margin-top: 10px;
 		margin-bottom: 0px;
 	}
 
 	.parisblog{
-		margin-left: 20px;
+		margin-left: 16%;
 		margin-top: 20px;  
 		width: 300px;
   		background-color: white;
@@ -58,15 +54,22 @@ body{
   	padding: 5px 20px;
 }	
 
-@media only screen and (max-width: 700px) {
-  .parisblog {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
+@media only screen and (min-width: 760px) {
+  
+	ul.topnav li{
+		float: left;
+	}
+	ul.topnav{
+		position: fixed;
+	}
+
+	.parisblog{
+
+		margin-left: 20px;
+		margin-top: 30px;
+
+	}
+
+
 }
 
-@media only screen and (max-width: 500px) {
-  .parisblog {
-    width: 100%;
-  }
-}
