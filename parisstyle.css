@@ -11,12 +11,12 @@ body{
  	    overflow: hidden;
   		border: 1px solid #e7e7e7;
   		background-color: #f3f3f3;
-  		position: fixed; 
+  		 
 		top: 0;
 		width: 100%;
 	}
 	ul.topnav li{
-		float: left;
+		float: none;
 	}
 	li a{
 		color: black;
@@ -28,17 +28,13 @@ body{
 	ul.topnav li a:hover{
 		background-color: #ddd;
 	}
-	@media screen and (max-width: 600px) {
-  		ul.topnav li.right, 
-  		ul.topnav li {float: none;}
-	}
+	
 
 	.header{
-		
 		text-decoration: underline;
 		color: gray;
 		text-align: center;
-		margin-top: 60px;
+		margin-top: 10px;
 		margin-bottom: 0px;
 	}
 	.container{
@@ -54,30 +50,43 @@ body{
 		padding: 0px;
 		background: url('images/paris.jpg');
 		background-size: cover;
-		background-attachment: fixed;
-		height: 750px;
+		background-attachment: scroll;
+		height: 350px;
+		width: 100%
 	}
 	.welcome{
+		font-size: 5vw;
 		text-align: center;
 		color: white;
-		padding-top: 300px;
+		padding-top: 180px;
 		width: 100%;
 	}
+	.content{
+		color: #454242;
+		padding: 30px 20px; 
+		font-size: 3.3vw;
+		background-color: #f3f3f3;
+	}
+	
+
+	
+	
 	.intro1{
-
-		float: left;
-		height:600px; 
-		width:450px;
-		margin-top:100px;
-		margin-left: 180px; 
-
+		
+		height: 450px;
+		width: 100%;
+		margin: auto;
+	}
+	.nir{
+		text-align: center; 
+		color: #454242;
 	}
 	
 	.intro_content{
-		font-size: 1.3vw;
-		margin-left:650px;
-		margin-right:50px; 
-		padding:70px;
+		
+		font-size: 3.3vw;
+		margin: auto;
+		padding:30px 20px;
 		color: #454242;
 		background-color: #f3f3f3;
 	}
@@ -89,9 +98,9 @@ body{
 		padding: 0px;
 		background: url('images/paris2.jpg');
 		background-size: cover;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		max-width: 100%;
-		height: 750px;
+		height: 350px;
 	}
 	.parallax3{
 			
@@ -99,9 +108,9 @@ body{
 		padding: 0px;
 		background: url('images/paris3.jpg');
 		background-size: cover;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		max-width: 100%;
-		height: 750px;
+		height: 350px;
 	}
 	.parallax4{
 			
@@ -109,9 +118,9 @@ body{
 		padding: 0px;
 		background: url('images/paris4.jpg');
 		background-size: cover;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		max-width: 100%;
-		height: 750px;
+		height: 350px;
 	}
 	.parallax5{
 			
@@ -119,8 +128,71 @@ body{
 		padding: 0px;
 		background: url('images/paris5.jpg');
 		background-size: cover;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		max-width: 100%;
-		height: 750px;
+		height: 350px;
 	}
 	
+
+	@media screen and (min-width: 768px) {
+  		ul.topnav{
+  			position: fixed;
+  		}
+  		ul.topnav li {float: left;}
+		
+		.header{
+			margin-top: 60px;
+		}
+		.parallax1{
+			background-attachment: fixed;
+			height: 750px;
+		}
+
+		.parallax2{
+			background-attachment: fixed;
+			height: 750px;
+		}
+
+		.parallax3{
+			background-attachment: fixed;
+			height: 750px;
+		}
+
+		.parallax4{
+			background-attachment: fixed;
+			height: 750px;
+		}
+		.parallax5{
+			background-attachment: fixed;
+			height: 750px;
+		}
+
+		.content{
+			margin-left: 80px;
+			margin-right: 80px;
+			padding-right: 50px;
+			padding-left: 50px; 
+			font-size: 1.6vw;
+		}
+
+		.intro1{
+			float: left;
+			height: 600px;
+			width: 450px;
+			margin-top: 100px;
+			margin-left: 180px;
+		}
+		.intro_content{
+			font-size: 1.3vw;
+			margin-left: 650px;
+			margin-right: 50px;
+			padding: 70px;
+			color: #454242;
+			background-color: #f3f3f3;
+		}
+
+		.welcome{
+			padding-top: 350px;
+			font-size: 3vw;
+		}
+	}
