@@ -98,6 +98,11 @@ body{
 		ul.topnav{
 			position: fixed;
 		}
+		.header{
+			
+			margin-top: 60px;
+		
+		}	
 
 		.nameimage{
 		float: right; 
