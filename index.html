@@ -5,20 +5,52 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
 
-<ul class="topnav">
-	<li><a href="index.html">Home</a></li>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="explore.html">Explore</a>
+  <a href="about.html">About</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" id="abc" ></i>
+  </a>
+  <a href="index.html" class="logo">NIR BLOG</a>
+</div>
+
+
+<!--
+<ul class="topnav" id="myTopnav">
+	<li><a href="index.html" class="active">Home</a></li>
 	<li><a href="about.html">About</a></li>
 	<li><a href="explore.html">Explore</a></li>
-
+	<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a></li>
+	<ul class="topnav-right">
+	<li class="logo"><a href="#">NIR BLOG</a></li>
+	</ul>
 </ul>
+-->
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 
 
-<h1 class="header">NIR BLOG</h1>
 
 
 

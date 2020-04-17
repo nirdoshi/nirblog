@@ -1,4 +1,3 @@
-
 *{
 	box-sizing: border-box;
 }
@@ -6,43 +5,69 @@
 body{
 		margin: 0;
 			}
+
+	.topnav {
+  	overflow: hidden;
+ 	 background-color: #333;
+ 	 margin-bottom: -21px;
+ 	
+	}
 	
-	ul.topnav{
-		list-style-type: none;
-  		
-  		margin:0px;
-  		padding: 0px; 
- 	    overflow: hidden;
-  		border: 1px solid #e7e7e7;
-  		background-color: #f3f3f3;
-  		
-		top: 0;
-		width: 100%;
+	.topnav a {
+  	 float: left;
+  	 display: block;
+ 	 color: #f2f2f2;
+ 	 text-align: center;
+ 	 padding: 14px 16px;
+ 	 text-decoration: none;
+ 	 font-size: 17px;
 	}
-	ul.topnav li{
-		float: none;
+	.topnav a.logo{
+		padding: 20px;
 	}
-	li a{
-		color: black;
-		display: block;
-		text-align: center;
-		padding: 15px 25px;
-		text-decoration: none;
+	
+	.topnav a:hover:not(:abc){
+  	  background-color: #ddd;
+	  color: black;
 	}
-	ul.topnav li a:hover{
-		background-color: #ddd;
+
+	.topnav a.active {
+	  background-color: #4CAF50;
+	  color: white;
 	}
 	
 
-	.header{
-		
-		text-decoration: underline;
-		color: gray;
-		text-align: center;
-		margin-top: 5px;
-		margin-bottom: 5px;
-	
+
+	.topnav a:not(:last-child) {
+		display: none;
 	}
+  .topnav a.icon {
+    float: right;
+    display: block;
+   	padding-top: -10px;
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a.logo{
+  	display: none;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  	}
+
+
+
+
+	
+
+	
 
 	.container{
 		max-width: 100%
@@ -108,18 +133,34 @@ body{
 
 @media screen and (min-width: 768px) {
  	
-	ul.topnav{
-		position: fixed;
+
+.topnav a:not(:last-child) {
+		display: block;
+	}
+	
+
+	.topnav{
+	top: 0;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
 	}
 
- 	ul.topnav li{
-		float: left;
-	} 		
- 	
- 	.header{
- 		margin-top: 60px;
- 		margin-bottom: -15px;
- 	}
+	.topnav a:hover:not(.active):not(.logo){
+  	  background-color: #ddd;
+	  color: black;
+	}
+
+	.topnav	a.logo{
+		float: right;
+		padding: 14px 16px;
+
+	}
+
+	.topnav a.icon {
+	  display: none;
+	}	
+	
 	.parallax1{
 		background-attachment: fixed;
 		height: 750px;
@@ -146,4 +187,3 @@ body{
 		margin-left: 49%;
 	}
 }
-

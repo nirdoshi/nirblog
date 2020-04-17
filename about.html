@@ -9,16 +9,27 @@
 <body>
 
 
-<ul class="topnav">
-	<li><a href="index.html">Home</a></li>
-	<li><a href="about.html">About</a></li>
-	<li><a href="explore.html">Explore</a></li>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="explore.html">Explore</a>
+  <a href="about.html">About</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" id="abc" ></i>
+  </a>
+  <a href="index.html" class="logo">NIR BLOG</a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
 
-</ul>
-	
-	<h1 class="header"><a href="n2.html" style="color: gray;">NIR BLOG</a></h1>
-
-<hr>
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 <div class="hello1" style="overflow: auto;">
 	<img class="nameimage" src="images/name3.png">
