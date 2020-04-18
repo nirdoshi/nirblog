@@ -165,7 +165,13 @@ body{
 		max-width: 100%;
 		height: 350px;
 	}
-	
+	.parisvideo{
+
+			width: 100%;
+			height:350px;
+			
+
+		}
 
 	@media screen and (min-width: 768px) {
   		.topnav a:not(:last-child) {
@@ -245,5 +251,13 @@ body{
 		.welcome{
 			padding-top: 350px;
 			font-size: 3vw;
+		}
+
+		.parisvideo{
+
+			width: 100%;
+			height:750px;
+			object-fit: cover;
+
 		}
 	}
