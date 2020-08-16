@@ -1,6 +1,6 @@
 body{
 		margin: 0;
-		background-color: #f3f3f3;
+		
 	<--!	
 		background: url('images/back_about.jpg');
 		background-repeat: no-repeat;
@@ -112,30 +112,78 @@ body{
 	.lets{
 		margin-top: 50px;
 	}
-
+	.phead {
+			margin-top: 40px;
+			text-align: center;
+			color: #454242;
+		}
+	.Projects{
+			background-color: #f3f3f3;
+			overflow: hidden;
+			padding:30px;
+		}
+	
+	.Projects .p2{
+		width: 300px;
+		margin:auto;
+		background-color: white;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border-radius: 5px;
+		margin-top: 10px;
+		}
+	.p2:hover{
+		border: 1px solid gray;
+		opacity: 0.7;
+		}
+	.container {
+  		text-align: center;
+  		padding: 5px 20px;
+  		}
 
 	.Follow{
 
-		
+		margin-top: 50px;
 		color: #454242;
 		text-align: center;
 	}
 
+.social {
 
-
+	margin-left: 40%;
+}
 .fa {
-  padding: 10px;
   text-align: center;
   width: 30px;
-  margin-left: 48%;
+  margin-bottom: 20px;
 }
 
 .fa:hover {
     opacity: 0.7;
 }
 .fa-instagram {
-  background: #125688;
-  color: white;
+  margin-left: 10px;
+  color: purple;
+}
+.fa-github {
+  margin-left: 10px;
+  color: black;
+}
+.fa-linkedin {
+  margin-left: 10px;
+  color: teal;
+}
+.Resume{
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius:35px;
+  
+}
+.Resume:hover{
+	background-color: #f3f3f3;
 }
 
 	@media screen and (min-width: 768px) {
@@ -166,7 +214,9 @@ body{
 	.topnav a.icon {
 	  display: none;
 	}	
-
+		.hello1{
+			background-color: #f3f3f3;
+		}	
 		.nameimage{
 		float: right; 
 		height: 300px; 
@@ -215,4 +265,37 @@ body{
 		.lets{
 			margin-top: 100px;
 		}
+		.Projects{
+			background-color: #f3f3f3;
+			overflow: hidden;
+			padding:30px;
+		}
+		.phead {
+			margin-top: 40px;
+			text-align: center;
+			color: #454242;
+		}
+		
+		.Projects .p2{
+		float: left;
+		width: 300px;
+		margin-top: 40px
+		background-color: white;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border-radius: 5px;
+		margin-left: 20px;
+		}
+		.p2:hover{
+		border: 1px solid gray;
+		opacity: 0.7;
+		}
+		.container {
+  		text-align: center;
+  		padding: 5px 20px;
+  		}
+  		.social {
+
+			margin-left: 45%;
+		}
+
 	}

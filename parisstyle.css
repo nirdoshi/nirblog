@@ -168,27 +168,37 @@ body{
 	
 	.Follow{
 
-		
+		margin-top: 50px;
 		color: #454242;
 		text-align: center;
 	}
 
+.social {
 
-
+	margin-left: 40%;
+}
 .fa {
-  padding: 10px;
   text-align: center;
   width: 30px;
-  margin-left: 48%;
+  margin-bottom: 20px;
 }
 
 .fa:hover {
     opacity: 0.7;
 }
 .fa-instagram {
-  background: #125688;
-  color: white;
+  margin-left: 10px;
+  color: purple;
 }
+.fa-github {
+  margin-left: 10px;
+  color: black;
+}
+.fa-linkedin {
+  margin-left: 10px;
+  color: teal;
+}
+
 
 	@media screen and (min-width: 768px) {
   		.topnav a:not(:last-child) {
@@ -270,5 +280,9 @@ body{
 			font-size: 3vw;
 		}
 
+		.social {
+
+		margin-left: 45%;
+	}
 		
 	}
